@@ -362,6 +362,7 @@ input[type=tel]:focus {
     .row3 {
         width: 100%;
         padding: 0;
+        box-shadow: none;
     }
     .row2 img {
         margin-top: 10px;
