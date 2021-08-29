@@ -409,9 +409,6 @@ input[type=tel]:focus {
         flex-direction: column;
         justify-content: center;
     }
-    .about-text {
-        padding-left: 0;
-    }
     .row-about {
         width: 100%;
         text-align: center;
