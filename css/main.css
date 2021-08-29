@@ -324,6 +324,13 @@ input[type=tel]:focus {
 /* about end */
 
 @media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 30px;
+    }
+    .main-header {
+        margin: auto;
+        margin-top: 75px;
+    }
     .row1 {
         width: 90%;
     }
