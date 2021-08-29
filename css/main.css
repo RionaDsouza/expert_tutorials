@@ -322,3 +322,43 @@ input[type=tel]:focus {
     width: 30px;
 }
 /* about end */
+
+@media only screen and (max-width: 768px) {
+    .row1 {
+        width: 90%;
+    }
+    .hide {
+        display: none;
+    }
+    .team-image img {
+        height: 130px;
+        width: 130px;
+        border-radius: 50%;
+        filter: grayscale(0%);
+    }
+    .hero-image {
+        background: #FDE9E9;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .about-text {
+        padding-left: 0;
+    }
+    .row-about {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+    .about-hero img {
+        height: 300px;
+        padding: 2em;
+    }
+    .main-image {
+        background-image: url("../images/jumbotron.png");
+        background-repeat: no-repeat;
+        width: 100%;
+        height: fit-content;
+    }
+}
