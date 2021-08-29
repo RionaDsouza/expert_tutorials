@@ -415,8 +415,10 @@ input[type=tel]:focus {
         margin: auto;
     }
     .about-hero img {
+        margin-top: 70px;
         height: 300px;
         padding: 2em;
+        padding-bottom: 0;
     }
     .main-image {
         background-image: url("../images/jumbotron.png");
