@@ -324,15 +324,34 @@ input[type=tel]:focus {
 /* about end */
 
 @media only screen and (max-width: 768px) {
+    h2 {
+        font-size: 24px;
+    }
     h1 {
         font-size: 30px;
+    }
+    h3 {
+        font-size: 18px;
     }
     .main-header {
         margin: auto;
         margin-top: 75px;
     }
+    .info {
+        width: 90%;
+    }
+    .main-body {
+        padding: 20px;
+        padding-bottom: 70px;
+    }
     .row1 {
         width: 90%;
+    }
+    .row2 {
+        margin-top: 0;
+    }
+    .row2 img {
+        margin-top: 10px;
     }
     .hide {
         display: none;
