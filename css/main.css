@@ -75,7 +75,7 @@ a:hover {
     color: #000;
 }
 .course-card {
-    height: 250px;
+    height: 200px;
     background: #FFFFFF;
     border: 2px solid #FDE9E9;
     box-shadow: -2px 2px 4px rgba(253, 233, 233, 0.5);
