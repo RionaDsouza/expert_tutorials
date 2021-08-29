@@ -197,9 +197,6 @@ p.body {
   }
 /* testimonials end */
 
-input:-internal-autofill-selected {
-    background-color: #ffffff!important;
-}
 .contact {
     height: 350px;
     width: 100%;
