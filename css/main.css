@@ -192,6 +192,9 @@ p.body {
   .active, .dot:hover {
     background-color: #3B0708;
   }
+  .name {
+      display: none;
+  }
 /* testimonials end */
 .contact {
     height: 350px;
@@ -356,6 +359,9 @@ input[type=tel]:focus {
     .row2 {
         margin-top: 0;
     }
+    .row3 {
+        width: 100%;
+    }
     .row2 img {
         margin-top: 10px;
     }
@@ -405,5 +411,12 @@ input[type=tel]:focus {
     }
     .slideshow-container .icon img {
         height: 20px;
+    }
+    .mySlides {
+        padding: 20px;
+        padding-bottom: 0;
+    }
+    .name {
+        display: block;
     }
 }
