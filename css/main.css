@@ -346,15 +346,28 @@ input[type=tel]:focus {
         margin: auto;
         margin-top: 75px;
     }
+    .course-card {
+        height: 200px;
+        width: 100%;
+        border-radius: 10px;
+        padding: 10;
+        margin: auto;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+    .col-6 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
     .info {
         width: 90%;
     }
     .main-body {
         padding: 20px;
-        padding-bottom: 70px;
+        margin-top: 0;
     }
     .row1 {
-        width: 90%;
+        width: 95%;
     }
     .row2 {
         margin-top: 0;
@@ -423,5 +436,11 @@ input[type=tel]:focus {
     }
     .name {
         display: block;
+    }
+    .students {
+        margin-top: 20px;
+    }
+    .tips img {
+        width: 90%;
     }
 }
