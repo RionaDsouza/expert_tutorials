@@ -443,4 +443,17 @@ input[type=tel]:focus {
     .tips img {
         width: 90%;
     }
+
+    /* about start */
+    .team-details {
+        width: 90%;
+    }
+    .team-small {
+        padding-left: 0%;
+        padding-right: 0;
+    }
+    .row-team {
+        padding: 25px;
+    }
+    /* about end */
 }
