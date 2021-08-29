@@ -196,6 +196,10 @@ p.body {
       display: none;
   }
 /* testimonials end */
+
+input:-internal-autofill-selected {
+    background-color: #ffffff!important;
+}
 .contact {
     height: 350px;
     width: 100%;
@@ -326,6 +330,10 @@ input[type=tel]:focus {
 }
 /* about end */
 @media only screen and (max-width: 768px) {
+    .navbar-collapse {
+        background-color: #FFFFFF;
+        height: 200px;
+    }
     .jumbotron {
         height: 300px;
     }
